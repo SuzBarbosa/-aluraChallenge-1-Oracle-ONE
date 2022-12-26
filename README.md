@@ -23,7 +23,7 @@ Utilizei como base as aulas e códigos demostrados em aulas do curso.
 
 
 
-📌 Link do projeto no github Pages: 
+📌 Link do projeto no github Pages: https://SuzBarbosa.github.io/aluraChallenge-1-Oracle-ONE/
  
 ---
 ⌨️ com ❤️ por Suzana Barbosa 😊
