@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Challenge - Codificador Alura </title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+        <a href="./index.html"><img src="./src/img/Vector.png" alt="logo"></a>
+        <h1>Codificador Alura</h1>
+        </nav>
+    </header>
+    
+    <main class="principal">
+        <div class="texto-button">
+            <div class="box-texto">
+                <div class="texto-entrada">
+                    <textarea  id="area-texto" placeholder="Digite seu texto aqui..."></textarea>
+                    <p> <img src="!.png" alt=""> Apenas letras maiusculas e sem acento!</p>    
+                </div>
+            </div>
+    
+            
+            <div class="buttons">
+                <div class="box-buttons">
+                   <button  onclick="criptografar()" class="bt-cript">Criptografar</button>
+                   <button  onclick="descriptografar()" class="bt-descri">Descriptografar</button>
+                </div>
+               
+            </div>
+        </div>
+        <div id="texto-saida">
+            <img src="./src/img/caixa-msg-img.png" alt="" height="330px" width="400px">
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+        </div>
+       
+
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <h3>Siga-me nas redes sociais!</h3>
+            <a href="https://github.com/SuzBarbosa"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/suzanacobarbosa/"><ion-icon name="logo-linkedin"></ion-icon></a> 
+        <p>Programado com <ion-icon name="heart-outline"></ion-icon> por Suzana Barbosa</p>
+        </div>
+    </footer>
+
+    <script src="./src/js/arquivo.js"></script>
+    <!--ícones-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
